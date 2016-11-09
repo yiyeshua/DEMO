@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kuangjiaretrofit.zhangzhimin.retrofit.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_no_params"
+            android:text="G无参数"
+            android:textSize="14sp"
+            />
+        <Button
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_no_change"
+            android:text="G_Path"
+            android:textSize="14sp"
+            />
+        <Button
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_query"
+            android:text="Gquery"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_g_querymap"
+            android:text="GQueryMap"
+            android:textSize="14sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        >
+        <Button
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_post_file"
+            android:text="P_File"
+            android:textSize="14sp"
+            />
+        <Button
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_post_filemap"
+            android:text="P_FileMap"
+            android:textSize="14sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+
+
+</LinearLayout>
